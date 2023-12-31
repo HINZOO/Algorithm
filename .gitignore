@@ -1,0 +1,6 @@
+# Default ignored files
+/bin/
+/.settings/
+
+.classpath
+.project
