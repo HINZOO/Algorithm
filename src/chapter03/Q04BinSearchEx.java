@@ -1,6 +1,5 @@
 package chapter03;
 
-import java.net.Socket;
 import java.util.Scanner;
 
 public class Q04BinSearchEx {
@@ -85,7 +84,7 @@ public class Q04BinSearchEx {
 			System.out.println("그 값의 요소는 존재하지 않습니다.");
 		else
 			System.out.println("그 값은 x[" + idx + "]에 있습니다.");
-		stdIn.close();
+		stdIn.close(); 
 	}
 	
 }
