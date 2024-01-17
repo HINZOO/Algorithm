@@ -24,7 +24,7 @@ public class LastNElements {
 		 int i = cnt - N; // 입력횟수(cnt)가 N보다 많이 입력되었다면, 
 		 				  //ex) cnt =11(12번입력) N =10  이면  i=2 부터 11까지 출력되며
 		 				 // a[2],a[3],...a[0],a[1] 까지 출력된다. 
-		 if (i < 0) i = 0; //만약 cnt가 N보다 작게 입력되었다면 0부터 cnt 까지 출력
+		 if (i < 0) i = 0; //만약 cnt가 N보다 작게 입력되었다면 0부터 cnt 까지 출력 
 		 for (; i < cnt ; i++) {
 			 System.out.printf("%2d 번째 정수 = %d\n", i+1 , a[i%N]);
 		 }
