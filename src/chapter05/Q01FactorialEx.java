@@ -2,7 +2,7 @@ package chapter05;
 
 import java.util.Scanner;
 
-public class Q1FactorialEx {
+public class Q01FactorialEx {
 	//음이아닌 정수n의 팩토리얼값을 반환
 	static int factorial(int n) {
 		int result = 1;
