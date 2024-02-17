@@ -38,3 +38,4 @@ public class A implements Comparable<A> {// Comparable 인터페이스 구현
 //}
 
 // 이 다음내용은 X.java 파일 참고
+// 수정수정
