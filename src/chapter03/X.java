@@ -9,7 +9,7 @@ public class X {
 	//필드, 메서드 등
 	public static final Comparator<T> COMPARATOR = new Comp();
 	
-	private static class Comp implements Comparator<T>{
+	private static  class Comp implements Comparator<T>{
 		public int compare(T d1, T d2) {
 			// d1 > d2 양수반환
 			// d1 < d2 음수반환
