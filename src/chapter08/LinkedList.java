@@ -36,6 +36,10 @@ public class LinkedList<E> {
 	 * @param c   매개변수와 연결리스트의 개별 노드안에 있는 데이터를 비교하기위한 comparator c로 obj와 선택한 노드의
 	 *            데이터를 비교하여 그 결과가 0이면 검색조건이 성립하는것으로 봄.
 	 *            (cf.Comparator :  두 매개변수의 객체비교 / Comparable: 자기자신과 매개변수 객체를 비교
+	 *           	compare의 결과 
+	 *           	 0: 두 객체가 같다고 판단되었을 때.
+	 *				음수: 첫 번째 객체가 두 번째 객체보다 작을 때.
+	 *				양수: 첫 번째 객체가 두 번째 객체보다 클 때.
 	 */
 	public E search(E obj, Comparator<? super E> c) { 
 		Node<E> ptr = head; //현재 스캔중인 노드
