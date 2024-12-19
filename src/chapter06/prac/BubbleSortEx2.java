@@ -33,6 +33,7 @@ public class BubbleSortEx2 {
 				System.out.printf("%3d  ", a[m]);
 			}
 			System.out.println();
+			if(exchg == 0) break;
 		}
 		System.out.println("비교를 " + diffCount + "회 했습니다.");
 		System.out.println("교환을 " + changeCount + "회 했습니다.");
