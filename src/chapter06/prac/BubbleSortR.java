@@ -1,5 +1,7 @@
 package chapter06.prac;
+
 import java.util.Scanner;
+
 public class BubbleSortR {
 
 	static void swap(int[] a, int idx1, int idx2) {
@@ -8,7 +10,7 @@ public class BubbleSortR {
 		a[idx2] = tmp;
 	}
 
-static void bubbleSort(int[] a, int n) {
+	static void bubbleSort(int[] a, int n) {
 		for (int i = n - 1; i > 0; i--) {
 			for (int j = 0; j < i; j++) {
 				if (a[j] > a[j + 1]) {
@@ -17,7 +19,7 @@ static void bubbleSort(int[] a, int n) {
 			}
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 
@@ -31,12 +33,12 @@ static void bubbleSort(int[] a, int n) {
 			x[i] = stdIn.nextInt();
 		}
 
-		bubbleSort(x, nx);				// 배열 x를 단순교환정렬
+		bubbleSort(x, nx); // 배열 x를 단순교환정렬
 
 		System.out.println("오름차순으로 정렬하였습니다.");
 		for (int i = 0; i < nx; i++)
 			System.out.println("x[" + i + "]＝" + x[i]);
-		
+
 		stdIn.close();
 	}
 }

@@ -1,5 +1,7 @@
 package chapter06.prac;
+
 import java.util.Scanner;
+
 public class BubbleSortEx2 {
 
 	// 배열교환
@@ -33,12 +35,12 @@ public class BubbleSortEx2 {
 				System.out.printf("%3d  ", a[m]);
 			}
 			System.out.println();
-			if(exchg == 0) break;
+			if (exchg == 0)
+				break;
 		}
 		System.out.println("비교를 " + diffCount + "회 했습니다.");
 		System.out.println("교환을 " + changeCount + "회 했습니다.");
 	}
-	
 
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
@@ -53,12 +55,12 @@ public class BubbleSortEx2 {
 			x[i] = stdIn.nextInt();
 		}
 
-		bubbleSort(x, nx);				// 배열 x를 단순교환정렬
+		bubbleSort(x, nx); // 배열 x를 단순교환정렬
 
 		System.out.println("오름차순으로 정렬하였습니다.");
 		for (int i = 0; i < nx; i++)
 			System.out.println("x[" + i + "]＝" + x[i]);
-		
+
 		stdIn.close();
 	}
 }
