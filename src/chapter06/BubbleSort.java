@@ -2,7 +2,7 @@ package chapter06;
 
 import java.util.Scanner;
 
-public class C1BubbleSort {
+public class BubbleSort {
 
 	// a[idx1]과 a[idx2]의 값 교환
 	static void swap(int[] a, int idx1, int idx2) {
